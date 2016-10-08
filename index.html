@@ -9,13 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Online portfolio of Computer Engineer </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <!-- my modifications in css -->
+    <link href="css/Custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -35,13 +37,14 @@
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,8 +59,17 @@
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#workExperience">Work Experience</a>
+                    </li>
+
+                    <li class="page-scroll">
+                        <a href="#education">Education</a>
+                    </li>
+
+                    <li class="page-scroll">
+                        <a href="#skills">Skills</a>
                     </li>
                 </ul>
             </div>
@@ -71,11 +83,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <!-- <img class="img-responsive img-circle" src="img/1.jpg" alt="" id="img-main"> -->
+                    <img class="img-responsive img-circle" src="img/2.jpg" alt="" id="img-main">
+                    <!-- <span id="image-main"> </span> -->
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Shah Nawaz</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Web Developer - Lecturer - Assistant Manager</span>
                     </div>
                 </div>
             </div>
@@ -99,7 +113,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/car-detection.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -109,7 +123,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/wireless.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -119,7 +133,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/camera.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -129,7 +143,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="img/embedded.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -139,7 +153,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                        <img src="img/compiler.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -149,7 +163,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="img/visualization.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -160,28 +174,215 @@
     <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                <div class="col-lg-12">
+                    <h2 class="text-center">About</h2>
                     <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <div class="row text-center">
+                <div class="col-md-4 text-right">
+                    <p>  <span class="bold"> Name:</span> Shah Nawaz:</p>
+                    <br/>
+                    <p> <span class="bold">Address(es): </span> House No. 26A Gobind Street Sham Nagar Chuburji Lahore, Pakistan</p>
+                    <br/>
+                    <p> <span class="bold"> Telephone:</span> +923347905265</p>
                 </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive img-circle" src="img/1.jpg" alt="" id="img-about">
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                <div class="col-md-4 text-left" >
+                    <p> <span class="bold">Email(s):</span>shah.nawaz@masterschool.eitictlabs.eu</p>
+                    <br/>
+                    <p><span class="bold">Nationality(-ies):</span>Pakistani</p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <p><span class="bold">Gender:</span>Male</p>
                 </div>
             </div>
         </div>
     </section>
 
+        <!-- Work Experience-->
+        <section id="workExperience">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center">Work Experience</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-lg-12">
+                     <div class="table-responsive"> 
+                    <table class="table">
+                    <thead>
+                    <tr>
+                    <th>Experience # </th>
+                    <th>Date</th>
+                    <th>Position</th>
+                    <th>Responsibilites</th>
+                    <th>Employer</th>
+                    <th>Type of Buissness</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Jan 11 2016 – Present</td>
+                    <td>Lecturer (Computer Sciences)</td>
+                    <td>Course(s):CS205 - Operating Systems [Spring 2016], CS406 - Web Programming
+[Spring 2016]</td>
+                    <td>National University of Computer and Emerging Sciences, Faisalabad (Pakistan)</td>
+                    <td>Education</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>May 26 2015 – Oct 25 2015</td>
+                    <td>Student Assistant</td>
+                    <td>I have successfully implemented a car detection pipeline based on Histogram of Oriented Gradient and Support Vector Machines on embedded computation platform that
+features Tegra K1 SoC, enclosing a GPU.</td>
+                    <td>Technical University of Eindhoven (Netherlands)</td>
+                    <td>Education</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sept 09 2011 – Oct 01 2013</td>
+                    <td>Assistant Manager</td>
+                    <td>Calibration of Heterogeneous, Homogenous and Special Calibration Telemetries
+Trend Analysis of Telemetries of Different Subsystem of Satellite</td>
+                    <td>Space and Upper Atmosphere Research Comission (Pakistan)</td>
+                    <td>Aerospace</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>May 05 2010 – Jul 06 2010</td>
+                    <td>Intern</td>
+                    <td>Design and Implementation of Indegius Robot for National Engineering and Robotics
+                    Contest 2010</td>
+                    <td>National Development Complex (Pakistan)</td>
+                    <td>Human Resource Development</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+</div>
+                 </div>
+
+                 <div class="col-lg-12">
+                     
+
+                 </div>
+
+            </div>
+            
+            <div class="row">
+            
+            </div>
+                
+        </div>
+    </section>
+
+    <!-- Education -->
+
+    <section id="education" class="success">
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center">Educational Background</h2>
+                    <hr class="star-light">
+                </div>
+        </div>
+        <div class="row">
+
+            <div class="table-responsive">
+            <table class="table"> 
+                <thead>
+                    <tr>
+                        <th>Place  </th>
+                        <th>Date</th>
+                        <th>Title of Qualification</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Technical University of Eindhoven (Netherlands)
+                        </td>
+                        <td>
+                            2013 – 2015
+                        </td>
+                        <td>
+                            Master of Science in Embedded Systems
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            University of Engineering and Technology Taxila (Pakistan)
+                        </td>
+                        <td>
+                            2007 – 2011
+                        </td>
+                        <td>
+                            Bachelor of Science in Computer Engineering
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>        
+        </div>
+         
+    </div>
+       
+
+    </section>
     <!-- Contact Section -->
+
+    <!-- Skills -->
+
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <h2 class="text-center">Skills</h2>
+                <hr class="star-primary">
+            
+                </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="text-center">
+                        Social skills andcompetences
+                    </h3>
+
+                    <p class="text-left">
+                        Good communication skills gained through experience at National University of Computer and Emerging Sciences and Space and Upper Atmosphere Research Commission. Through EIT Digital Master School platform, I got a chance to interact with
+people from diverse cultural backgrounds which further sparkles my communication
+skills.
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="text-center">
+                        Technical skills andcompetences
+                    </h3>
+
+                    <p class="text-left">
+                        Programming languages (C, C++, Java), HTML, CSS and JavaScript, Embedded Programming -Assembly Language, network embedded systems C (nesC), Verilog, Data
+                    Driven Document (d3),OpenCV, MATLAB
+                    </p>
+                </div>
+                
+                
+            </div>
+            </div>
+        </div>
+    </section>
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -304,24 +505,23 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>HOG-SVM Car Detection Pipeline on an Embedded GPU</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <img src="img/car-detection.jpg" class="img-responsive img-centered" alt="">
+
+                            <p>The focus of this master thesis is on a vision-based car detection pipeline for a Cooperative Cruise Control system, based on Histograms of Oriented Gradients and
+							Support Vector Machines. The pipeline is implemented on an automotive-grade embedded computation platform which features a Tegra K1 System on Chip, enclosing
+							also a Graphics Processing Unit. The system is evaluated using the KITTI Vision
+							Benchmark Suite, a standard in computer vision research. The results show that the
+							pipeline reaches accuracies up to 65.5 percent, which is acceptable given the limited
+							training dataset size of 1,174 samples and that application context has not yet been
+							exploited
+							<br>
+
+							<span class="bold"> Supervisor:</span> Prof. Dr. Peter de With, Video Coding and Architectures Group,
+							Technical University of Eindhoven Netherlands
+							</p>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -341,24 +541,15 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Design and Development of Wireless Sensor Project</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <img src="img/wireless.jpg" class="img-responsive img-centered" alt="">
+                            <p>
+                                A small project was developed as a semester project capable of performing sensing,
+                                processing and communication. TinyOS is used as an operating system.
+
+                            </p>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -378,24 +569,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Design and Development of Digital Camera on Zed Board </h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <img src="img/camera.jpg" class="img-responsive img-centered" alt="">
+                            <p>A small semester
+                                project was developed capable of capturing, processing and storing of pictures and
+                                small videos on Zed Board</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -415,24 +594,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Energy Efficient Embedded Systems</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <img src="img/embedded.jpg" class="img-responsive img-centered" alt="">
+                            <p>Energy improvement of a low-power wide-SIMD processor based on explicit by
+                                passing and data level parallelism.</p>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -452,24 +619,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Compiler Construction</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <img src="img/compiler.png" class="img-responsive img-centered" alt="">
+                            <p>A compiler was developed which has four components, parser, type checker, Interpreter and code generation using functional aspects of Scala programming language</p>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -489,24 +643,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Visualization</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <img src="img/visualization.jpg" class="img-responsive img-centered" alt="">
+                            <p>During visualization course three assignments were made during visualization</p>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
