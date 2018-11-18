@@ -51,7 +51,7 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #18bc9c;
 }
 hr.star-light:after {
   background-color: #18BC9C;
@@ -93,8 +93,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    /*padding-bottom: 100px;*/
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -179,7 +179,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 25px 0;
 }
 section h2 {
   margin: 0;
@@ -452,7 +452,6 @@ fieldset[disabled] .btn-success.active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
